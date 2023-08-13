@@ -31,10 +31,22 @@ main {
 }
 
 .content-section p {
-  margin-top: 20px;
+  margin: 20px 0 20px;
 }
 
 .sign-up-form {
 
+}
+
+.row-group {
+  display: flex;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+
+  margin-right: 50px;
+  margin-bottom: 20px;
 }
 
